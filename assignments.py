@@ -71,5 +71,6 @@ def get_all_assignments(course_dict):
     outfile.close()
     return result_str
 
-get_all_assignments(courses)
-#get_assignment_for_course(36910)
+if __name__ == "__main__":
+    get_all_assignments(courses)
+    #get_assignment_for_course(36910)
